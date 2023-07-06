@@ -1,1 +1,0 @@
-window.adsAllowed = true;
