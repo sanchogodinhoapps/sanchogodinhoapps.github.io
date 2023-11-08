@@ -9,11 +9,7 @@
     <meta name="keywords"
         content="sg app,sg apps,sancho godinho apps,sg-apps,sg-app,sanchogodinhoapps,sanchogodinho apps">
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
-    <!-- HTML Meta Tags -->
-    <title>SG Apps Official Website</title>
-    <meta name="description" content="This is the official website of SG Apps">
 
-    <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://sg-app.com">
     <meta property="og:type" content="website">
     <meta property="og:title" content="SG Apps Official Website">
@@ -21,7 +17,6 @@
     <meta property="og:image"
         content="https://cdn.jsdelivr.net/gh/sanchogodinhoapps/sanchogodinhoapps.github.io/images/logo.png">
 
-    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="sg-app.com">
     <meta property="twitter:url" content="https://sg-app.com">
@@ -29,8 +24,6 @@
     <meta name="twitter:description" content="This is the official website of SG Apps">
     <meta name="twitter:image"
         content="https://cdn.jsdelivr.net/gh/sanchogodinhoapps/sanchogodinhoapps.github.io/images/logo.png">
-
-    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 </head>
 
 <body>
@@ -51,68 +44,69 @@
         <a class="app" href="https://sg-app.com/Tiles-Game" target="_blank">Tiles Game</a>
         <div style="margin-top:10px;color:white;">&copy;2023, SG App(s)</div>
     </div>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            background-image: url('./images/bg.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow-x: hidden;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .pic {
+            width: 100px;
+            border: 5px dashed grey;
+            padding: 5px;
+            border-radius: 50%;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        .container {
+            width: calc(100% - 10px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 500px;
+            margin-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        p {
+            text-align: center;
+            margin: 0;
+        }
+
+        .app {
+            all: unset;
+            width: calc(100% - 40px);
+            background-color: blueviolet;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+            transition: all .10s linear;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .app:active {
+            background-color: rgb(119, 36, 196);
+        }
+    </style>
+
 </body>
-
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-
-    body {
-        width: 100vw;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        color: white;
-        background-image: url('./images/bg.webp');
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow-x: hidden;
-        font-family: 'Kanit', sans-serif;
-    }
-
-    .pic {
-        width: 100px;
-        border: 5px dashed grey;
-        padding: 5px;
-        border-radius: 50%;
-        user-select: none;
-        pointer-events: none;
-    }
-
-    .container {
-        width: calc(100% - 10px);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        max-width: 500px;
-        margin-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    p {
-        text-align: center;
-        margin: 0;
-    }
-
-    .app {
-        all: unset;
-        width: calc(100% - 40px);
-        background-color: blueviolet;
-        padding: 10px;
-        text-align: center;
-        color: white;
-        border-radius: 5px;
-        transition: all .10s linear;
-        cursor: pointer;
-        margin-top: 10px;
-    }
-
-    .app:active {
-        background-color: rgb(119, 36, 196);
-    }
-</style>
 
 </html>
