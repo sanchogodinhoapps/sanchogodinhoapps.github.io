@@ -1,0 +1,23 @@
+{
+  "featured": [
+    {
+      "id": "vibedin",
+      "name": "VibedIn",
+      "description": "A modern profile discovery platform that connects people based on shared interests and experiences. Features advanced search capabilities, real-time filtering, and an intuitive interface for finding and connecting with like-minded individuals.",
+      "image": "https://vibedin.sg-app.com/images/og-image.png",
+      "technologies": ["TypeScript", "Bun", "ElysiaJS", "React", "React Router"],
+      "liveUrl": "https://vibedin.sg-app.com/",
+      "featured": true
+    },
+    {
+      "id": "postily",
+      "name": "Postily",
+      "description": "Social media that actually works for creators. A platform built for creators, not corporations. Get verified for free, earn from your content, and never pay a subscription. Fair monetization, completely free access, and real identity verification.",
+      "image": "https://wsrv.nl/?url=https://postily.sg-app.com/og-image.png?maxage=15d",
+      "technologies": [],
+      "liveUrl": "https://postily.social/",
+      "featured": true
+    }
+  ],
+  "projects": []
+}
