@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import Script from 'next/script'
 import './globals.css'
 
@@ -39,7 +38,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans antialiased`}>
         {children}
-        <Analytics />
         <Script
           src="https://rybbit.sg-app.com/api/script.js"
           data-site-id="4c9bb37bd8fe"
