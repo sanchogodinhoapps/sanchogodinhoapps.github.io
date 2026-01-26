@@ -36,8 +36,8 @@ export default function Home() {
             Building secure, modern applications with attention to detail
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl">
-            We create thoughtfully designed web and mobile applications that prioritize security, 
-            user experience, and performance. Every project is built with modern technologies and 
+            We create thoughtfully designed web and mobile applications that prioritize security,
+            user experience, and performance. Every project is built with modern technologies and
             undergoes rigorous testing to ensure reliability.
           </p>
         </section>
@@ -61,7 +61,7 @@ export default function Home() {
                       src={project.image || "/placeholder.svg"}
                       alt={`${project.name} screenshot`}
                       fill
-                      className="object-cover object-top"
+                      className="object-cover object-center"
                       priority={index === 0}
                     />
                   </div>
@@ -73,7 +73,7 @@ export default function Home() {
                   <p className="text-muted-foreground mb-6 leading-relaxed">
                     {project.description}
                   </p>
-                  
+
                   <div className="flex flex-wrap gap-2 mb-8">
                     {project.technologies.map((tech) => (
                       <span key={tech} className="px-3 py-1 text-xs rounded-full bg-secondary text-secondary-foreground">
@@ -98,9 +98,16 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="mt-32 pt-8 border-t border-border">
+        <footer className="footer mt-32 pt-8 border-t border-border flex justify-between align-center gap-3">
           <p className="text-sm text-muted-foreground">
             Founded by <Link href="https://sancho1952007.github.io/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:underline">Sancho Godinho</Link>
+          </p>
+          <p className="text-sm text-muted-foreground">
+            <iframe src="https://status.sg-app.com/embed-badges/live-status?align=start&background-light=f5f5f5&text-light=000000&background-dark=171717&text-dark=ffffff" width="190" height="30" loading="lazy" style={{
+              border: "none",
+              overflow: "hidden",
+              borderRadius: 10
+            }}></iframe>
           </p>
         </footer>
       </main>
