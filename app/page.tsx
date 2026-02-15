@@ -102,6 +102,9 @@ export default function Home() {
           <p className="text-sm text-muted-foreground">
             Founded by <Link href="https://sancho1952007.github.io/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:underline">Sancho Godinho</Link>
           </p>
+
+          <Link href="https://github.com/sanchogodinhoapps/sanchogodinhoapps.github.io/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:underline">Edit this page</Link>
+
           <p className="text-sm text-muted-foreground">
             <iframe src="https://status.sg-app.com/embed-badges/live-status?align=start&background-light=f5f5f5&text-light=000000&background-dark=171717&text-dark=ffffff" width="190" height="30" loading="lazy" style={{
               border: "none",
