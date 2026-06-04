@@ -106,7 +106,7 @@ export default function Home() {
           <Link href="https://github.com/sanchogodinhoapps/sanchogodinhoapps.github.io/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:underline">Edit this page</Link>
 
           <p className="text-sm text-muted-foreground">
-            <iframe src="https://status.sg-app.com/badge?theme=light" width="250" height="30" frameborder="0" scrolling="no" style="color-scheme: normal"></iframe>
+            <iframe src="https://status.sg-app.com/badge?theme=light" width="250" height="30" frameborder="0" scrolling="no" style={{colorScheme: "normal"}}></iframe>
           </p>
         </footer>
       </main>
