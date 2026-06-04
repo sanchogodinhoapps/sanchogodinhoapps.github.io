@@ -106,11 +106,7 @@ export default function Home() {
           <Link href="https://github.com/sanchogodinhoapps/sanchogodinhoapps.github.io/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:underline">Edit this page</Link>
 
           <p className="text-sm text-muted-foreground">
-            <iframe src="https://status.sg-app.com/embed-badges/live-status?align=start&background-light=f5f5f5&text-light=000000&background-dark=171717&text-dark=ffffff" width="190" height="30" loading="lazy" style={{
-              border: "none",
-              overflow: "hidden",
-              borderRadius: 10
-            }}></iframe>
+            <iframe src="https://status.sg-app.com/badge?theme=light" width="250" height="30" frameborder="0" scrolling="no" style="color-scheme: normal"></iframe>
           </p>
         </footer>
       </main>
